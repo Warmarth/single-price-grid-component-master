@@ -13,9 +13,10 @@
   --font-size: 16px;
 }
 body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main {
   width: 20rem;
